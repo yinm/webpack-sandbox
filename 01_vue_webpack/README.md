@@ -1,0 +1,1 @@
+ref: [Webpackで作る Vueコンポーネント開発環境 / Creating the Vue component development with Webpack. // Speaker Deck](https://speakerdeck.com/hypermkt/creating-the-vue-component-development-with-webpack)
