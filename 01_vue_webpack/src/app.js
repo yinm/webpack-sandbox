@@ -1,4 +1,5 @@
 import hello from './hello.js'
 import world from './world.js'
 
-console.log(hello() + world())
+const message = `${hello()} ES6`
+console.log(message)
