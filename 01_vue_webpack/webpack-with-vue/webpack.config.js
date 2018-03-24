@@ -6,6 +6,14 @@ module.exports = {
     filename: 'bundle.js',
     path: path.join(__dirname, 'dist')
   },
+  module: {
+    rules: [
+      {
+        test: /\.vue$/,
+        loader: 'vue-loader',
+      }
+    ]
+  },
   devServer: {
     contentBase: path.join(__dirname, 'dist')
   }
