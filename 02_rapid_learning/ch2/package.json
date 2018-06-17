@@ -1,0 +1,16 @@
+{
+  "name": "02_rapid_learning",
+  "version": "1.0.0",
+  "description": "[速習 webpack - WINGS](http://www.wings.msn.to/index.php/-/A-03/WGS-JST-001/)をやってます。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.8"
+  }
+}
