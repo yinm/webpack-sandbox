@@ -1,5 +1,5 @@
-import { APP_NAME, hello, Figure } from './myutil'
+console.log(process.env.NODE_ENV)
 
-console.log(APP_NAME)
-hello()
-concole.log(Figure.getTriangle(10, 5))
+if (process.env.NODE_ENV === 'development') {
+  console.log('!! development !!')
+}
