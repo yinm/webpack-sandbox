@@ -1,4 +1,5 @@
 module.exports = {
+  mode: 'production',
   entry: './src/index.js',
   output: {
     path: `${__dirname}/dist`,
@@ -7,4 +8,5 @@ module.exports = {
   devServer: {
     contentBase: './dist'
   },
+  devtool: 'eval-source-map',
 }
