@@ -1,4 +1,7 @@
-import './style.css'
+import pic from './images/logo.png'
 
-let body = document.getElementsByTagName('body')[0]
-body.classList.add('sky')
+window.addEventListener('DOMContentLoaded', () => {
+  let img = new Image()
+  img.src = pic
+  document.body.appendChild(img)
+}, false)

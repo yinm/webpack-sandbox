@@ -14,12 +14,9 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.css$/,
-        use: ExtractTextPlugin.extract({ use: 'css-loader' })
+        test: /\.(gif|png|jpg)$/,
+        loader: 'url-loader',
       }
     ]
-  },
-  plugins: [
-    new ExtractTextPlugin('style.css'),
-  ]
+  }
 }
