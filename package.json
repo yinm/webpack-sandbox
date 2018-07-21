@@ -1,0 +1,24 @@
+{
+  "name": "webpack-sandbox",
+  "version": "1.0.0",
+  "description": "このあたりやろうかなリスト * [現場で使えるwebpack 4入門 - JS開発のモジュールバンドラ - ICS MEDIA](https://ics.media/entry/12140)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/yinm/webpack-sandbox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yinm/webpack-sandbox/issues"
+  },
+  "homepage": "https://github.com/yinm/webpack-sandbox#readme",
+  "devDependencies": {
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.1.0"
+  }
+}
