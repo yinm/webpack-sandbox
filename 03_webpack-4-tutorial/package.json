@@ -1,0 +1,16 @@
+{
+  "name": "03_webpack-4-tutorial",
+  "version": "1.0.0",
+  "description": "ref: [webpack 4 入門 - Qiita](https://qiita.com/soarflat/items/28bf799f7e0335b68186)",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.1.0"
+  }
+}
