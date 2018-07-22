@@ -4,7 +4,8 @@
   "description": "ref: [webpack 4 入門 - Qiita](https://qiita.com/soarflat/items/28bf799f7e0335b68186)",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production"
   },
   "keywords": [],
   "author": "",

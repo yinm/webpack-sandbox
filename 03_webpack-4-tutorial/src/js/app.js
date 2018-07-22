@@ -1,3 +1,4 @@
+import $ from 'jquery'
 import additionCalculator from './modules/addition-calculator'
 import taxCalculator from './modules/tax-calculator'
 
