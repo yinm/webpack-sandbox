@@ -105,7 +105,7 @@ eval("var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!\n * jQ
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _modules_addition_calculator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/addition-calculator */ \"./src/js/modules/addition-calculator.js\");\n/* harmony import */ var _modules_tax_calculator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/tax-calculator */ \"./src/js/modules/tax-calculator.js\");\n\n\n\n\nconst item1Price = 400\nconst item2Price = 600\nconst totalPrice = Object(_modules_addition_calculator__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(item1Price, item2Price)\nconst tax = 1.08\nconst priceIncludeTax = Object(_modules_tax_calculator__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(totalPrice, tax)\n\nconsole.log(priceIncludeTax)\njquery__WEBPACK_IMPORTED_MODULE_0___default()('body').html(priceIncludeTax)\n\n\n//# sourceURL=webpack:///./src/js/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _modules_addition_calculator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/addition-calculator */ \"./src/js/modules/addition-calculator.js\");\n/* harmony import */ var _modules_tax_calculator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/tax-calculator */ \"./src/js/modules/tax-calculator.js\");\n\n\n\n\nvar item1Price = 400;\nvar item2Price = 600;\nvar totalPrice = Object(_modules_addition_calculator__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(item1Price, item2Price);\nvar tax = 1.08;\nvar priceIncludeTax = Object(_modules_tax_calculator__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(totalPrice, tax);\n\nconsole.log(priceIncludeTax);\njquery__WEBPACK_IMPORTED_MODULE_0___default()('body').html(priceIncludeTax);\n\n//# sourceURL=webpack:///./src/js/app.js?");
 
 /***/ }),
 
@@ -117,7 +117,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jque
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return additionCalculator; });\nfunction additionCalculator(number1, number2) {\n  return number1 + number2\n}\n\n\n//# sourceURL=webpack:///./src/js/modules/addition-calculator.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return additionCalculator; });\nfunction additionCalculator(number1, number2) {\n  return number1 + number2;\n}\n\n//# sourceURL=webpack:///./src/js/modules/addition-calculator.js?");
 
 /***/ }),
 
@@ -129,7 +129,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return taxCalculator; });\nfunction taxCalculator(price, tax) {\n  return Math.round(price * tax)\n}\n\n\n//# sourceURL=webpack:///./src/js/modules/tax-calculator.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return taxCalculator; });\nfunction taxCalculator(price, tax) {\n  return Math.round(price * tax);\n}\n\n//# sourceURL=webpack:///./src/js/modules/tax-calculator.js?");
 
 /***/ })
 
