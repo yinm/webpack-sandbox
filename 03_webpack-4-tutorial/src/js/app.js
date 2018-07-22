@@ -1,3 +1,4 @@
+import $ from 'jquery'
 import additionCalculator from './modules/addition-calculator'
 import taxCalculator from './modules/tax-calculator'
 
@@ -8,3 +9,4 @@ const tax = 1.08
 const priceIncludeTax = taxCalculator(totalPrice, tax)
 
 console.log(priceIncludeTax)
+$('body').html(priceIncludeTax)
