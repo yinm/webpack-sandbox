@@ -8,5 +8,4 @@ const totalPrice = additionCalculator(item1Price, item2Price)
 const tax = 1.08
 const priceIncludeTax = taxCalculator(totalPrice, tax)
 
-console.log(priceIncludeTax)
 $('body').html(priceIncludeTax)
