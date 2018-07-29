@@ -4,8 +4,8 @@
   "description": "ref: [Webpack 4 Tutorial: from 0 Conf to Production Mode (Updated)](https://www.valentinog.com/blog/webpack-tutorial/)",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development",
-    "build": "webpack --mode production"
+    "dev": "webpack --mode development ./foo/src/js/index.js --output ./bar/main.js",
+    "build": "webpack --mode production ./foo/src/js/index.js --output ./bar/main.js"
   },
   "keywords": [],
   "author": "",
