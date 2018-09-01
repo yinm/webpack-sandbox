@@ -36,6 +36,13 @@ module.exports = {
           ]
         }),
       },
+      {
+        test: /\.(gif|png|jpg|eot|wof|woff|ttf|svg)$/,
+        loader: 'file-loader',
+        options: {
+          name: './[name].[ext]'
+        }
+      }
     ],
   },
 
