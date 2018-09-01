@@ -12,7 +12,7 @@ module.exports = {
           {
             loader: 'css-loader',
             options: {
-              url: false,
+              url: true,
               sourceMap: true,
               minimize: true,
               importloaders: 2
@@ -35,6 +35,10 @@ module.exports = {
           }
         ],
       },
+      {
+        test: /\.(gif|png|jpg|eot|wof|woff|woff2|ttf|svg)$/,
+        loader: 'url-loader'
+      }
     ],
   }
 }
